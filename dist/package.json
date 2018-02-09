@@ -1,0 +1,15 @@
+{
+  "name": "curriculum-vitae",
+  "version": "1.0.0",
+  "description": "Curriculum Vitae",
+  "license": "MIT",
+  "repository": "https://github.com/haulrich/cv.git",
+  "private": true,
+  "author": "Heidi Ulrich",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-watch": "latest",
+    "load-grunt-tasks": "latest"
+  }
+}

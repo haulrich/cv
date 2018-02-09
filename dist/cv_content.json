@@ -1,0 +1,137 @@
+{
+    "werk" :
+    [
+        {
+            "company" : "Radish Concepts",
+            "city" : "Enschede",
+            "country" : "Nederland",
+            "role" : "Frontend developer",
+            "from" : "2018-03-01",
+            "to" : "current",
+            "fte" : "0.8",
+            "priority": "1"
+        },
+        {
+            "company" : "Antagonist",
+            "city" : "Enschede",
+            "country" : "Nederland",
+            "role" : "Backend developer",
+            "from" : "2017-01-01",
+            "to" : "2018-02-28",
+            "fte" : "1",
+            "priority": "1"
+        },
+        {
+            "company" : "TRIMM Multimedia BV",
+            "city" : "Enschede",
+            "country" : "Nederland",
+            "role" : "Marketing automation specialist",
+            "from" : "2014-01-01",
+            "to" : "2016-01-01",
+            "fte" : "1",
+            "priority": "1"
+        },
+        {
+            "company" : "Inmote BV ",
+            "city" : "Enschede",
+            "country" : "Nederland",
+            "role" : "Frontend developer",
+            "from" : "2012-03-01",
+            "to" : "2013-12-31",
+            "fte" : "1",
+            "priority": "1"
+        },
+        {
+            "company" : "Stratech Automatisering",
+            "city" : "Enschede",
+            "country" : "Nederland",
+            "role" : "UX/UI designer",
+            "from" : "2009-09-01",
+            "to" : "2012-02-28",
+            "fte" : "1",
+            "priority": "1"
+        }],
+    "opleiding" : [
+        {
+            "level" : "HBO",
+            "institution" : "Saxion Hogescholen",
+            "study" : "Concept Design (Kunst en Techniek)",
+            "study_type" : "",
+            "city" : "Enschede",
+            "country" : "Nederland",
+            "from" : "2005",
+            "to" : "2009",
+            "certification" : true,
+            "honours" : true,
+            "extra_subjects" : ""
+        },
+        {
+            "level" : "HBO",
+            "institution" : "ArteZ Academie voor Beeldende Kunsten",
+            "study" : "Visuele communicatie, fotografie",
+            "study_type" : "",
+            "city" : "Enschede",
+            "country" : "Nederland",
+            "from" : "2004",
+            "to" : "2005",
+            "certification" : false,
+            "honours" : false,
+            "extra_subjects" : ""
+        },
+        {
+            "level" : "MBO",
+            "institution" : "Deltion College",
+            "study" : "Desktop Publishing",
+            "study_type" : "verkort traject",
+            "city" : "Zwolle",
+            "country" : "Nederland",
+            "from" : "2003",
+            "to" : "2004",
+            "certification" : true,
+            "honours" : false,
+            "extra_subjects" : ""
+        },
+        {
+            "level" : "HBO",
+            "institution" : "Koninklijke Academie voor Beeldende Kunsten (KABK)",
+            "study" : "Grafisch vormgeven",
+            "study_type" : "voorbereidend jaar",
+            "city" : "Den Haag",
+            "country" : "Nederland",
+            "from" : "2002",
+            "to" : "2003",
+            "certification" : false,
+            "honours" : false,
+            "extra_subjects" : ""
+        },
+        {
+            "level" : "VWO",
+            "institution" : "Het Ulenhof College",
+            "study" : "Cultuur & Maatschappij",
+            "study_type" : "",
+            "city" : "Doetinchem",
+            "country" : "Nederland",
+            "from" : "1996",
+            "to" : "2002",
+            "certification" : true,
+            "honours" : false,
+            "extra_subjects" : "informatica, handvaardigheid, kunstgeschiedenis en Latijn"
+        }],
+    "overige interesses" :[
+        {
+            "skill" : "software",
+            "assets" : "adobe creative suite,quark xpress,cinema 4d,office,balsamiq mockups,diverse IDE's"
+        },
+        {
+            "skill" : "talen",
+            "assets" : "Nederlands, Engels, Duits vloeiend; Frans voldoende, enig Fins en Italiaans"
+        },
+        {
+            "skill" : "platformen",
+            "assets" : "DOS,Windows,OS 9.2, OS X, interesse in Linux"
+        },
+        {
+            "skill" : "Hobby's",
+            "assets" : "Websiteontwerp en -ontwikkeling voor diverse verenigingen en stichtingen\nGrafisch ontwerp, redactie en horeca voor LANparty-organisatie Netgamez\nGrafisch ontwerp, lichttechniek en horeca voor poppodium Atak in Enschede\nInteresse voor taal, reizen, paardrijden, bergwandelen, fotografie, tekenen en zingen"
+        }]
+}

@@ -1,0 +1,92 @@
+@import 'bootstrap';
+@import 'bootstrap-reboot.min';
+@import 'mixins';
+
+:root {
+    --container-width: 1140px;
+    --start-grad-color: #fbeded;
+    --end-grad-color: #ffffff;
+    --white: #ffffff;
+    --text-color: #545253;
+    --border-radius: 3px;
+    --shadow-color: rgba(0,0,0,0.25);
+
+    --card1-start-bg: #ddcdce;
+    --card1-end-bg: #f2dcde;
+    --card2-start-bg: #bebebe;
+    --card2-end-bg: #e7e5e6;
+    --card3-start-bg: #aecad5;
+    --card3-end-bg: #dee6e9;
+    --card-shade: rgba(0,0,0,0.2);
+    --card-deg: 80deg;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background-attachment: fixed;
+    @include bg_gradient(45deg,var(--start-grad-color),var(--end-grad-color));
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: var(--text-color);
+}
+
+.container {
+    width: var(--container-width);
+    margin: 100px auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    @include container_shadow(5px,10px,30px,0px,var(--shadow-color));  
+}
+
+.card-section {
+    @extend .card;
+    @extend .d-flex;
+    @extend .flex-row;
+    @extend .mb-3;
+    @extend .border-0;
+}
+.card-section:last-child {
+    @extend .card-section;
+    @extend .mb-0;
+}
+
+.card-section.double>div {
+    @extend .col-6;
+}
+
+.card-section.one-two>div:nth-child(1) {
+    @extend .col-4;
+    @extend .d-flex;
+    @extend .flex-row;
+    @extend .align-items-center;
+    @extend .text-uppercase;
+    color: var(--white);
+    border-radius: 0.5rem 0 0 0.5rem;
+    background-size: contain;
+}
+    .card-section:nth-child(3)>div:nth-child(1) {
+        @include section_gradient(var(--card-deg),var(--card-shade),var(--card1-start-bg),var(--card1-end-bg));
+    }
+    .card-section:nth-child(4)>div:nth-child(1) {
+        @include section_gradient(var(--card-deg),var(--card-shade),var(--card2-start-bg),var(--card2-end-bg));
+    }
+    .card-section:nth-child(5)>div:nth-child(1) {
+        @include section_gradient(var(--card-deg),var(--card-shade),var(--card3-start-bg),var(--card3-end-bg));
+    }
+.card-section.one-two>div:nth-child(2) {
+    @extend .col-8;
+    color: #5f4c3d;
+    border-radius: 0.5rem 0 0 0.5rem;
+    background-color: var(--white);
+}
+
+@media (max-width: 1160px)  {
+    .container {
+        width: 90%;
+    }
+}

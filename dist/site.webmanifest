@@ -1,0 +1,11 @@
+{
+  "name": "Heidi Ulrich - Curriculum Vitae",
+  "short_name": "Heidi Ulrich cv",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000",
+  "theme_color": "#000",
+  "description": "Heidi Ulrich's curriculum vitae",
+  "lang": "nl-NL",
+  ​​"orientation": "portrait-primary",
+}
