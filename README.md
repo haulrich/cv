@@ -1,2 +1,2 @@
-# my
-Own projects
+# cv
+Curriculum vitae
